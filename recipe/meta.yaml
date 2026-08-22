@@ -1,5 +1,5 @@
 {% set name = "precious" %}
-{% set version = "0.11.0" %}
+{% set version = "0.12.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/houseabsolute/precious/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: 87b5c72e22f83ac502721da58d5560866a8efccefc6f55646d59ce7402d74d0a
+  sha256: c3e10e136ded670bceb7cad93e95aad282355f728c5f5a1121af4ef1a7c50821
 
 build:
   number: 0
